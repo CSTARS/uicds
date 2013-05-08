@@ -1,0 +1,20 @@
+# comment the following line to post to uicds.
+#debug=true
+
+# UICDS Core Config
+user=admin
+password=userFlexibleStories
+protocol=https
+hostname=uicds.resources.ca.gov
+
+# use either file OR url
+jsonfile=fieldnotes.json
+#jsonurl=http://bayquakealliance.org/sandbox/fieldnotes/markers.json.php
+
+# Transform file
+xslt=usgs.xsl
+incidentid=IG-f5bd48ce-277b-431b-aa98-85a3c4f30a86
+
+
+# Temp file for holding ids
+tmpfile=usgs-1.tmp

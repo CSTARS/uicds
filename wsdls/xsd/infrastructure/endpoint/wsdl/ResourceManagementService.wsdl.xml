@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="wsdl-viewer-mod.xsl"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://uicds.org/ResourceManagementService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://uicds.org/ResourceManagementService" targetNamespace="http://uicds.org/ResourceManagementService">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:de="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:rms="http://uicds.org/ResourceManagementService" xmlns:wp="http://uicds.org/WorkProductService" elementFormDefault="qualified" targetNamespace="http://uicds.org/ResourceManagementService">
+	<import namespace="urn:oasis:names:tc:emergency:EDXL:DE:1.0" schemaLocation="../../../external/niem/external/de/1.0/de.xsd"/>
+	<import namespace="http://uicds.org/WorkProductService" schemaLocation="../../../services/WorkProduct/0.1/WorkProductService.xsd"/>
+	<include schemaLocation="../../../services/ResourceManagement/0.1/ResourceManagementServiceData.xsd"/>
+	<element name="EdxlDeRequest">
+		<complexType>
+			<sequence>
+				<element ref="de:EDXLDistribution"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="EdxlDeResponse" type="rms:EdxlDeMessageResponseType"/>
+	<element name="GetRequestedResourcesRequest">
+		<complexType>
+			<sequence>
+				<element name="incidentID" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GetRequestedResourcesResponse">
+		<complexType>
+			<sequence>
+				<element ref="wp:WorkProductList"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GetCommittedResourcesRequest">
+		<complexType>
+			<sequence>
+				<element name="incidentID" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GetCommittedResourcesResponse">
+		<complexType>
+			<sequence>
+				<element ref="wp:WorkProductList"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="EdxlDeRequest">
+    <wsdl:part element="tns:EdxlDeRequest" name="EdxlDeRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetRequestedResourcesRequest">
+    <wsdl:part element="tns:GetRequestedResourcesRequest" name="GetRequestedResourcesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="EdxlDeResponse">
+    <wsdl:part element="tns:EdxlDeResponse" name="EdxlDeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetCommittedResourcesRequest">
+    <wsdl:part element="tns:GetCommittedResourcesRequest" name="GetCommittedResourcesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetCommittedResourcesResponse">
+    <wsdl:part element="tns:GetCommittedResourcesResponse" name="GetCommittedResourcesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetRequestedResourcesResponse">
+    <wsdl:part element="tns:GetRequestedResourcesResponse" name="GetRequestedResourcesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ResourceManagementService">
+    <wsdl:operation name="GetCommittedResources">
+      <wsdl:input message="tns:GetCommittedResourcesRequest" name="GetCommittedResourcesRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetCommittedResourcesResponse" name="GetCommittedResourcesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestedResources">
+      <wsdl:input message="tns:GetRequestedResourcesRequest" name="GetRequestedResourcesRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetRequestedResourcesResponse" name="GetRequestedResourcesResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EdxlDe">
+      <wsdl:input message="tns:EdxlDeRequest" name="EdxlDeRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:EdxlDeResponse" name="EdxlDeResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ResourceManagementServiceSoap11" type="tns:ResourceManagementService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="GetCommittedResources">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetCommittedResourcesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetCommittedResourcesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRequestedResources">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetRequestedResourcesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetRequestedResourcesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EdxlDe">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="EdxlDeRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="EdxlDeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ResourceManagementServiceService">
+    <wsdl:port binding="tns:ResourceManagementServiceSoap11" name="ResourceManagementServiceSoap11">
+      <soap:address location="https://127.0.0.1:443/uicds/core/ws/services/ResourceManagementService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

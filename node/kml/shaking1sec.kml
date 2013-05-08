@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <open>1</open>
+    <name>shaking1sec</name>
+    <LookAt>
+      <longitude>-119.268698655961</longitude>
+      <latitude>37.3495978081469</latitude>
+      <range>505933.092319378</range>
+    </LookAt>
+    <Snippet>Maximum Considered Earthquake Ground Motion 1.0 sec.
+</Snippet>
+    <Url>
+      <viewRefreshMode>onStop</viewRefreshMode>
+      <viewRefreshTime>2</viewRefreshTime>
+      <href>http://atlas.resources.ca.gov/ArcGIS/services/GeoScience/Shaking_1sec/MapServer/KmlServer</href>
+      <viewFormat><![CDATA[Composite=true&LayerIDs=0&BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth];CAMERA=[lookatLon],[lookatLat],[lookatRange],[lookatTilt],[lookatHeading];VIEW=[horizFov],[vertFov],[horizPixels],[vertPixels],[terrainEnabled]]]></viewFormat>
+    </Url>
+  </NetworkLink>
+</kml>

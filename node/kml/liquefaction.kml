@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <open>1</open>
+    <name>liquefaction</name>
+    <LookAt>
+      <longitude>-119.270414105992</longitude>
+      <latitude>39.183836756855</latitude>
+      <range>700356.321853461</range>
+    </LookAt>
+    <Snippet>Map of liquefaction potential areas in California.</Snippet>
+    <Url>
+      <viewRefreshMode>onStop</viewRefreshMode>
+      <viewRefreshTime>2</viewRefreshTime>
+      <href>http://atlas.resources.ca.gov/ArcGIS/services/GeoScience/Liquefaction/MapServer/KmlServer</href>
+      <viewFormat><![CDATA[Composite=true&LayerIDs=0%2c1%2c2%2c3%2c4&BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth];CAMERA=[lookatLon],[lookatLat],[lookatRange],[lookatTilt],[lookatHeading];VIEW=[horizFov],[vertFov],[horizPixels],[vertPixels],[terrainEnabled]]]></viewFormat>
+    </Url>
+  </NetworkLink>
+</kml>

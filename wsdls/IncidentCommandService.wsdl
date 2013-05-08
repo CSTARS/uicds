@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://uicds.org/IncidentCommandStructureService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://uicds.org/IncidentCommandStructureService" targetNamespace="http://uicds.org/IncidentCommandStructureService">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wps="http://uicds.org/WorkProductService" xmlns:ics="http://uicds.org/IncidentCommandStructureService" xmlns:org="http://uicds.org/OrganizationElement" xmlns:preciss="http://www.saic.com/precis/2009/06/structures" elementFormDefault="qualified" targetNamespace="http://uicds.org/IncidentCommandStructureService">
+    <import namespace="http://uicds.org/WorkProductService" schemaLocation="./xsd/services/WorkProduct/0.1/WorkProductService.xsd"/>
+    <import namespace="http://uicds.org/OrganizationElement" schemaLocation="./xsd/services/IncidentCommand/0.1/OrganizationElement.xsd"/>
+    <import namespace="http://www.saic.com/precis/2009/06/structures" schemaLocation="./xsd/precis/2009/06/Structures.xsd"/>
+    <element name="GetCommandStructureByIncidentResponse">
+        <complexType>
+            <sequence>
+                <element ref="preciss:WorkProduct"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetCommandStructureByIncidentRequest" type="string"/>
+    <element name="GetCommandStructureRequest">
+        <complexType>
+            <all>
+                <element ref="preciss:WorkProductIdentification"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetCommandStructureResponse">
+        <complexType>
+            <sequence>
+                <element ref="preciss:WorkProduct"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="CreateCommandStructureRequest">
+        <complexType>
+            <all>
+                <element ref="org:OrganizationElement"/>
+                <element minOccurs="0" name="IncidentID" type="string"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="CreateCommandStructureResponse">
+        <complexType>
+            <sequence>
+                <element ref="wps:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateCommandStructureRequest">
+        <complexType>
+            <sequence>
+                <element ref="preciss:WorkProductIdentification"/>
+                <element ref="org:OrganizationElement"/>
+                <element minOccurs="0" name="IncidentID" type="string"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateCommandStructureResponse">
+        <complexType>
+            <sequence>
+                <element ref="wps:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="GetCommandStructureByIncidentRequest">
+    <wsdl:part element="tns:GetCommandStructureByIncidentRequest" name="GetCommandStructureByIncidentRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateCommandStructureResponse">
+    <wsdl:part element="tns:UpdateCommandStructureResponse" name="UpdateCommandStructureResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetCommandStructureRequest">
+    <wsdl:part element="tns:GetCommandStructureRequest" name="GetCommandStructureRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateCommandStructureRequest">
+    <wsdl:part element="tns:CreateCommandStructureRequest" name="CreateCommandStructureRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetCommandStructureResponse">
+    <wsdl:part element="tns:GetCommandStructureResponse" name="GetCommandStructureResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetCommandStructureByIncidentResponse">
+    <wsdl:part element="tns:GetCommandStructureByIncidentResponse" name="GetCommandStructureByIncidentResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateCommandStructureResponse">
+    <wsdl:part element="tns:CreateCommandStructureResponse" name="CreateCommandStructureResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateCommandStructureRequest">
+    <wsdl:part element="tns:UpdateCommandStructureRequest" name="UpdateCommandStructureRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="IncidentCommandService">
+    <wsdl:operation name="UpdateCommandStructure">
+      <wsdl:input message="tns:UpdateCommandStructureRequest" name="UpdateCommandStructureRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:UpdateCommandStructureResponse" name="UpdateCommandStructureResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCommandStructure">
+      <wsdl:input message="tns:CreateCommandStructureRequest" name="CreateCommandStructureRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:CreateCommandStructureResponse" name="CreateCommandStructureResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommandStructure">
+      <wsdl:input message="tns:GetCommandStructureRequest" name="GetCommandStructureRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetCommandStructureResponse" name="GetCommandStructureResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommandStructureByIncident">
+      <wsdl:input message="tns:GetCommandStructureByIncidentRequest" name="GetCommandStructureByIncidentRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetCommandStructureByIncidentResponse" name="GetCommandStructureByIncidentResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IncidentCommandServiceSoap11" type="tns:IncidentCommandService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="UpdateCommandStructure">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="UpdateCommandStructureRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UpdateCommandStructureResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCommandStructure">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="CreateCommandStructureRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateCommandStructureResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommandStructure">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetCommandStructureRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetCommandStructureResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommandStructureByIncident">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetCommandStructureByIncidentRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetCommandStructureByIncidentResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IncidentCommandServiceService">
+    <wsdl:port binding="tns:IncidentCommandServiceSoap11" name="IncidentCommandServiceSoap11">
+      <soap:address location="https://127.0.0.1:443/uicds/core/ws/services/IncidentCommandService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

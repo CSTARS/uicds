@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://uicds.org/MapService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://uicds.org/MapService" targetNamespace="http://uicds.org/MapService">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:context="http://www.opengis.net/context" xmlns:wp="http://uicds.org/WorkProductService" xmlns:m="http://uicds.org/MapService" xmlns:preciss="http://www.saic.com/precis/2009/06/structures" elementFormDefault="qualified" targetNamespace="http://uicds.org/MapService">
+    <import namespace="http://www.opengis.net/context" schemaLocation="../../../external/context/1.1.0/context.xsd"/>
+    <import namespace="http://ucore.gov/ucore/2.0" schemaLocation="../../../ucore/2.0/ucore/2.0/ucore.xsd"/>
+    <import namespace="http://www.saic.com/precis/2009/06/structures" schemaLocation="../../../precis/2009/06/Structures.xsd"/>
+    <import namespace="http://uicds.org/WorkProductService" schemaLocation="../../../services/WorkProduct/0.1/WorkProductService.xsd"/>
+    <complexType name="LayerType">
+        <sequence>
+            <element name="IncidentId" type="string"/>
+            <element name="LayerId" type="string"/>
+            <element name="Layer" type="context:LayerType"/>
+        </sequence>
+    </complexType>
+    <element name="GetMapsRequest">
+        <complexType>
+            <all>
+                <element name="IncidentId" type="string"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetMapsResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" ref="preciss:WorkProduct"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetMapRequest">
+        <complexType>
+            <all>
+                <element ref="preciss:WorkProductIdentification"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetMapResponse">
+        <complexType>
+            <sequence>
+                <element ref="preciss:WorkProduct"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="SubmitMapRequest">
+        <complexType>
+            <all>
+                <element minOccurs="0" name="IncidentId" type="string"/>
+                <element ref="context:ViewContext"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="SubmitMapResponse">
+        <complexType>
+            <sequence>
+                <element ref="wp:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateMapRequest">
+        <complexType>
+            <all>
+                <element ref="preciss:WorkProductIdentification"/>
+                <element ref="context:ViewContext"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="UpdateMapResponse">
+        <complexType>
+            <sequence>
+                <element ref="wp:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <!-- delete this operation, to use WorkProductService's close/archive instead
+        <element name="DeleteMapRequest">
+        <complexType>
+        <all>
+        <element ref="preciss:WorkProductIdentification"/>
+        </all>
+        </complexType>
+        </element>
+        <element name="DeleteMapResponse">
+        <complexType>
+        <sequence>
+        <element ref="wp:WorkProductPublicationResponse"/>
+        </sequence>
+        </complexType>
+        </element>
+    -->
+    <element name="GetLayersRequest">
+        <complexType>
+            <all>
+                <element name="IncidentId" type="string"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetLayersResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" ref="preciss:WorkProduct"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetLayerRequest">
+        <complexType>
+            <all>
+                <element ref="preciss:WorkProductIdentification"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetLayerResponse">
+        <complexType>
+            <sequence>
+                <element ref="preciss:WorkProduct"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="SubmitLayerRequest">
+        <complexType>
+            <all>
+                <element minOccurs="0" name="IncidentId" type="string"/>
+                <element name="Layer" type="context:LayerType"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="SubmitLayerResponse">
+        <complexType>
+            <sequence>
+                <element ref="wp:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateLayerRequest">
+        <complexType>
+            <all>
+                <element ref="preciss:WorkProductIdentification"/>
+                <element name="Layer" type="context:LayerType"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="UpdateLayerResponse">
+        <complexType>
+            <sequence>
+                <element ref="wp:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <!-- delete this operation, to use WorkProductService's close/archive instead
+        <element name="DeleteLayerRequest">
+        <complexType>
+        <all>
+        <element ref="preciss:WorkProductIdentification"/>
+        </all>
+        </complexType>
+        </element>
+        <element name="DeleteLayerResponse">
+        <complexType>
+        <sequence>
+        <element ref="wp:WorkProductPublicationResponse"/>
+        </sequence>
+        </complexType>
+        </element>
+    -->
+    <element name="SubmitShapefileRequest">
+        <complexType>
+            <sequence>
+                <element minOccurs="0" name="IncidentId" type="string"/>
+                <element ref="ucore:Digest"/>
+                <element name="ContentData" type="base64Binary"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="SubmitShapefileResponse">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" minOccurs="0" ref="wp:WorkProductPublicationResponse"/>
+            </sequence>
+        </complexType>
+    </element>
+    <!-- -->
+    <!--
+        GetMaps(incidentId) GetMap(incidentId, mapId) SubmitMap(incidentId, map)
+        UpdateMap(incidentID, mapId, map) DeleteMap(incidentId, mapId) GetLayers(incidentId)
+        GetLayer(incidentId, layereId) SubmitLayer(incidentId, layer) UpdateLayer(incidentId,
+        layerId, layer) DeleteLayer(incidentId, layerId)
+    -->
+</schema>
+  </wsdl:types>
+  <wsdl:message name="SubmitShapefileRequest">
+    <wsdl:part element="tns:SubmitShapefileRequest" name="SubmitShapefileRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetMapResponse">
+    <wsdl:part element="tns:GetMapResponse" name="GetMapResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLayersResponse">
+    <wsdl:part element="tns:GetLayersResponse" name="GetLayersResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetMapRequest">
+    <wsdl:part element="tns:GetMapRequest" name="GetMapRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateLayerRequest">
+    <wsdl:part element="tns:UpdateLayerRequest" name="UpdateLayerRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SubmitLayerResponse">
+    <wsdl:part element="tns:SubmitLayerResponse" name="SubmitLayerResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SubmitMapResponse">
+    <wsdl:part element="tns:SubmitMapResponse" name="SubmitMapResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateMapResponse">
+    <wsdl:part element="tns:UpdateMapResponse" name="UpdateMapResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetMapsResponse">
+    <wsdl:part element="tns:GetMapsResponse" name="GetMapsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLayerRequest">
+    <wsdl:part element="tns:GetLayerRequest" name="GetLayerRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateLayerResponse">
+    <wsdl:part element="tns:UpdateLayerResponse" name="UpdateLayerResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetMapsRequest">
+    <wsdl:part element="tns:GetMapsRequest" name="GetMapsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLayersRequest">
+    <wsdl:part element="tns:GetLayersRequest" name="GetLayersRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLayerResponse">
+    <wsdl:part element="tns:GetLayerResponse" name="GetLayerResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SubmitLayerRequest">
+    <wsdl:part element="tns:SubmitLayerRequest" name="SubmitLayerRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SubmitMapRequest">
+    <wsdl:part element="tns:SubmitMapRequest" name="SubmitMapRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SubmitShapefileResponse">
+    <wsdl:part element="tns:SubmitShapefileResponse" name="SubmitShapefileResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateMapRequest">
+    <wsdl:part element="tns:UpdateMapRequest" name="UpdateMapRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="MapService">
+    <wsdl:operation name="UpdateMap">
+      <wsdl:input message="tns:UpdateMapRequest" name="UpdateMapRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:UpdateMapResponse" name="UpdateMapResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitShapefile">
+      <wsdl:input message="tns:SubmitShapefileRequest" name="SubmitShapefileRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:SubmitShapefileResponse" name="SubmitShapefileResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMap">
+      <wsdl:input message="tns:SubmitMapRequest" name="SubmitMapRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:SubmitMapResponse" name="SubmitMapResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLayer">
+      <wsdl:input message="tns:GetLayerRequest" name="GetLayerRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetLayerResponse" name="GetLayerResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLayer">
+      <wsdl:input message="tns:UpdateLayerRequest" name="UpdateLayerRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:UpdateLayerResponse" name="UpdateLayerResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaps">
+      <wsdl:input message="tns:GetMapsRequest" name="GetMapsRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetMapsResponse" name="GetMapsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMap">
+      <wsdl:input message="tns:GetMapRequest" name="GetMapRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetMapResponse" name="GetMapResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitLayer">
+      <wsdl:input message="tns:SubmitLayerRequest" name="SubmitLayerRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:SubmitLayerResponse" name="SubmitLayerResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLayers">
+      <wsdl:input message="tns:GetLayersRequest" name="GetLayersRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetLayersResponse" name="GetLayersResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MapServiceSoap11" type="tns:MapService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="UpdateMap">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="UpdateMapRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UpdateMapResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitShapefile">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="SubmitShapefileRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SubmitShapefileResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMap">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="SubmitMapRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SubmitMapResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLayer">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetLayerRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetLayerResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLayer">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="UpdateLayerRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UpdateLayerResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaps">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetMapsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetMapsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMap">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetMapRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetMapResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitLayer">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="SubmitLayerRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SubmitLayerResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLayers">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetLayersRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetLayersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MapServiceService">
+    <wsdl:port binding="tns:MapServiceSoap11" name="MapServiceSoap11">
+      <soap:address location="https://127.0.0.1:443/uicds/core/ws/services/MapService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

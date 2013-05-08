@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+    <open>1</open>
+    <name>potentialLandslides</name>
+    <LookAt>
+      <longitude>-119.270414105992</longitude>
+      <latitude>37.2405144332515</latitude>
+      <range>734904.26939223</range>
+    </LookAt>
+    <Snippet>A map showing potential locations of Landslide that could  occur in California.</Snippet>
+    <Url>
+      <viewRefreshMode>onStop</viewRefreshMode>
+      <viewRefreshTime>2</viewRefreshTime>
+      <href>http://atlas.resources.ca.gov/ArcGIS/services/GeoScience/Potential_Landslides/MapServer/KmlServer</href>
+      <viewFormat><![CDATA[Composite=true&LayerIDs=0%2c1%2c2%2c3%2c4&BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth];CAMERA=[lookatLon],[lookatLat],[lookatRange],[lookatTilt],[lookatHeading];VIEW=[horizFov],[vertFov],[horizPixels],[vertPixels],[terrainEnabled]]]></viewFormat>
+    </Url>
+  </NetworkLink>
+</kml>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://uicds.org/LoggingService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://uicds.org/LoggingService" targetNamespace="http://uicds.org/LoggingService">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:log="http://uicds.org/LoggingService" elementFormDefault="qualified" targetNamespace="http://uicds.org/LoggingService">
+    <simpleType name="LogResponseType">
+        <restriction base="string">
+            <enumeration value="Success"/>
+            <enumeration value="Failure"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="LogLevelType">
+        <restriction base="string">
+            <enumeration value="Fatal"/>
+            <enumeration value="Error"/>
+            <enumeration value="Warn"/>
+            <enumeration value="Debug"/>
+            <enumeration value="Info"/>
+            <enumeration value="Trace"/>
+        </restriction>
+    </simpleType>
+    <complexType name="LogType">
+        <sequence>
+            <element name="logger" type="string"/>
+            <element name="timestamp" type="dateTime"/>
+            <element name="hostname" type="string"/>
+            <element name="type" type="log:LogLevelType"/>
+            <element name="message" type="string"/>
+        </sequence>
+    </complexType>
+    <element name="LogRequest" type="log:LogType"/>
+    <element name="LogResponse">
+        <complexType>
+            <all>
+                <element name="response" type="log:LogResponseType"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetLogByLoggerRequest">
+        <complexType>
+            <all>
+                <element name="logger" type="string"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetLogByLoggerResponse">
+        <complexType>
+            <sequence>
+                <element name="logger" type="string"/>
+                <element name="numberOfRecords" type="int"/>
+                <element maxOccurs="unbounded" minOccurs="0" name="logRecord" type="log:LogType"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetLogByHostnameRequest">
+        <complexType>
+            <all>
+                <element name="hostname" type="string"/>
+            </all>
+        </complexType>
+    </element>
+    <element name="GetLogByHostnameResponse">
+        <complexType>
+            <sequence>
+                <element name="hostname" type="string"/>
+                <element name="numberOfRecords" type="int"/>
+                <element maxOccurs="unbounded" minOccurs="0" name="logRecord" type="log:LogType"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="GetLogByHostnameRequest">
+    <wsdl:part element="tns:GetLogByHostnameRequest" name="GetLogByHostnameRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="LogResponse">
+    <wsdl:part element="tns:LogResponse" name="LogResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLogByLoggerRequest">
+    <wsdl:part element="tns:GetLogByLoggerRequest" name="GetLogByLoggerRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLogByLoggerResponse">
+    <wsdl:part element="tns:GetLogByLoggerResponse" name="GetLogByLoggerResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="LogRequest">
+    <wsdl:part element="tns:LogRequest" name="LogRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetLogByHostnameResponse">
+    <wsdl:part element="tns:GetLogByHostnameResponse" name="GetLogByHostnameResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="LoggingService">
+    <wsdl:operation name="Log">
+      <wsdl:input message="tns:LogRequest" name="LogRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:LogResponse" name="LogResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogByHostname">
+      <wsdl:input message="tns:GetLogByHostnameRequest" name="GetLogByHostnameRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetLogByHostnameResponse" name="GetLogByHostnameResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogByLogger">
+      <wsdl:input message="tns:GetLogByLoggerRequest" name="GetLogByLoggerRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetLogByLoggerResponse" name="GetLogByLoggerResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LoggingServiceSoap11" type="tns:LoggingService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Log">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="LogRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="LogResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogByHostname">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetLogByHostnameRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetLogByHostnameResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogByLogger">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetLogByLoggerRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetLogByLoggerResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LoggingServiceService">
+    <wsdl:port binding="tns:LoggingServiceSoap11" name="LoggingServiceSoap11">
+      <soap:address location="https://127.0.0.1:443/uicds/core/ws/services/LoggingService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

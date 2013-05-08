@@ -1,0 +1,4342 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"id": "10",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-82.00605, 40.75343, 320.43
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Fri, Dec 23 2011 1:53pm",
+				"timezone": "EST",
+				"recorded": "2011-12-23 17:53:29 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"type": "Fall",
+				"material": "Alluvium\/soil\/fill",
+				"area": "100-1000",
+				"facilities": "",
+				"notes": "",
+				"description": "40.75343, -82.00605",
+				"accuracy": "65.00",
+				"zaccuracy": "25.17",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "11",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-82.00622, 40.75352, 319.51
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Sat, Dec 24 2011 2:10pm",
+				"timezone": "EST",
+				"recorded": "2011-12-24 18:10:29 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"type": "Fall",
+				"material": "",
+				"area": "",
+				"facilities": "Buildings",
+				"notes": "",
+				"description": "40.75352, -82.00622",
+				"accuracy": "152.77",
+				"zaccuracy": "11.38",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "12",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17109, 37.45569, 30.16
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Thu, Jan 5 2012 12:06pm",
+				"timezone": "PST",
+				"recorded": "2012-01-05 19:07:08 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"type": "Slide",
+				"material": "Crystalline rock",
+				"area": "",
+				"facilities": "",
+				"notes": "",
+				"description": "37.45569, -122.17109",
+				"accuracy": "1014.29",
+				"zaccuracy": "66.65",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "22",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-70.66029, 41.54443, 17.68
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Mon, Mar 5 2012 12:38pm",
+				"timezone": "EST",
+				"recorded": "2012-03-05 16:38:40 UTC",
+				"synced": "",
+				"operator": "rthieler@usgs.gov",
+				"site": "test",
+				"photo": "",
+				"type": "Slide",
+				"material": "Alluvium\/soil\/fill",
+				"area": "< 10",
+				"facilities": "Buildings",
+				"notes": "Test",
+				"description": "41.54443, -70.66029",
+				"accuracy": "1518.16",
+				"zaccuracy": "16.74",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "24",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-70.63432, 41.61315, 33.59
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Tue, Mar 13 2012 7:43pm",
+				"timezone": "EDT",
+				"recorded": "2012-03-13 23:43:21 UTC",
+				"synced": "",
+				"operator": "me@here.com",
+				"site": "",
+				"photo": "",
+				"type": "Topple",
+				"material": "",
+				"area": "",
+				"facilities": "",
+				"notes": "",
+				"description": "41.61315, -70.63432",
+				"accuracy": "47.42",
+				"zaccuracy": "70.28",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "32",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Fri, Apr 27 2012 3:12pm",
+				"timezone": "PDT",
+				"recorded": "2012-04-27 22:13:01 UTC",
+				"synced": "",
+				"operator": "shaefner@usgs.gov",
+				"site": "usgs",
+				"photo": "",
+				"type": "Spread",
+				"material": "Sedimentary rock",
+				"area": "100-1000",
+				"facilities": "None",
+				"notes": "",
+				"description": "37.45383, -122.18219",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "37",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 2 2012 4:11pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-02 23:12:00 UTC",
+				"synced": "",
+				"operator": "shaefner@usgs.gov",
+				"site": "USGS",
+				"photo": "",
+				"type": "Spread",
+				"material": "",
+				"area": "",
+				"facilities": "None",
+				"notes": "Testing...",
+				"description": "37.45383, -122.18219",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "44",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.15483, 37.47271, 8
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 9 2012 12:57pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-09 19:57:45 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "backayard",
+				"photo": "",
+				"type": "Topple",
+				"material": "",
+				"area": "10-100",
+				"facilities": "Buildings",
+				"notes": "",
+				"description": "37.47271, -122.15483",
+				"accuracy": "5.00",
+				"zaccuracy": "6.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "46",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.07084, 38.99489, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 9 2012 6:37pm",
+				"timezone": "EDT",
+				"recorded": "2012-05-10 00:28:52 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"type": "Fall",
+				"material": "Sedimentary rock",
+				"area": "1000-10,000",
+				"facilities": "Buildings",
+				"notes": "",
+				"description": "38.99489, -77.07084",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "63",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-104.9847, 39.73915, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Sun, May 27 2012 9:56pm",
+				"timezone": "MDT",
+				"recorded": "2012-05-28 03:54:38 UTC",
+				"synced": "",
+				"operator": "test@gmail.com",
+				"site": "",
+				"photo": "",
+				"type": "",
+				"material": "",
+				"area": "",
+				"facilities": "",
+				"notes": "",
+				"description": "39.73915, -104.9847",
+				"accuracy": "43000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "83",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.39542, 34.65844, 1035.87
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 12:03pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:06:44 UTC",
+				"synced": "",
+				"operator": "kscharer@usgs.gov",
+				"site": "eliz lake",
+				"photo": "",
+				"type": "Complex",
+				"material": "Alluvium\/soil\/fill",
+				"area": "< 10",
+				"facilities": "None",
+				"notes": "Test",
+				"description": "34.65844, -118.39542",
+				"accuracy": "1500.00",
+				"zaccuracy": "19.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "93",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.05186, 37.68617, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 12:21pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:24:58 UTC",
+				"synced": "",
+				"operator": "hstenner@gmail.com",
+				"site": "",
+				"photo": "",
+				"type": "Complex",
+				"material": "Alluvium\/soil\/fill, Sedimentary rock",
+				"area": "10-100",
+				"facilities": "Buildings, Utilities, Roads, Other",
+				"notes": "Fire station",
+				"description": "37.68617, -122.05186",
+				"accuracy": "98.00",
+				"zaccuracy": "0.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "96",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27237, 37.80418, 43.83
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 1:01pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:02:39 UTC",
+				"synced": "",
+				"operator": "hfaison@berkeley.edu",
+				"site": "eeri office",
+				"photo": "",
+				"type": "Spread",
+				"material": "Sedimentary rock",
+				"area": ">10,000",
+				"facilities": "",
+				"notes": "Sample text",
+				"description": "37.80418, -122.27237",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "98",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27241, 37.80414, 44.25
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 1:07pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:08:33 UTC",
+				"synced": "",
+				"operator": "hfaison@berkeley.edu",
+				"site": "LA River",
+				"photo": "",
+				"type": "Flow",
+				"material": "Alluvium\/soil\/fill",
+				"area": "10-100",
+				"facilities": "None",
+				"notes": "",
+				"description": "34.107481,-118.245840",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "99",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.43538, 37.73813, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Sat, Mar 21 1981 9:33pm",
+				"timezone": "MST",
+				"recorded": "2012-05-30 20:13:44 UTC",
+				"synced": "",
+				"operator": "mgreene@eeri.org",
+				"site": "",
+				"photo": "",
+				"type": "Slide",
+				"material": "Sedimentary rock",
+				"area": "10-100",
+				"facilities": "Buildings",
+				"notes": "",
+				"description": "37.73813, -122.43538",
+				"accuracy": "98.68",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "101",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27235, 37.8041, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 1:19pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:20:04 UTC",
+				"synced": "",
+				"operator": "mgreene@eeri.org",
+				"site": "",
+				"photo": "",
+				"type": "Spread",
+				"material": "Alluvium\/soil\/fill, Crystalline rock",
+				"area": "10-100",
+				"facilities": "Buildings",
+				"notes": "",
+				"description": "37.8041, -122.27235",
+				"accuracy": "65.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "102",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27235, 37.8041, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 1:20pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:20:29 UTC",
+				"synced": "",
+				"operator": "mgreene@eeri.org",
+				"site": "",
+				"photo": "",
+				"type": "",
+				"material": "",
+				"area": "",
+				"facilities": "",
+				"notes": "",
+				"description": "37.8041, -122.27235",
+				"accuracy": "65.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "103",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.4419, 37.75467, 147.71
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 1:30pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:31:13 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"type": "Slide",
+				"material": "Alluvium\/soil\/fill",
+				"area": "10-100",
+				"facilities": "Buildings",
+				"notes": "Houses affected",
+				"description": "37.75467, -122.4419",
+				"accuracy": "78.44",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "106",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17209, 37.45565, 0.41
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, May 30 2012 1:57pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:58:22 UTC",
+				"synced": "",
+				"operator": "swalter@usgs.gov",
+				"site": "",
+				"photo": "",
+				"type": "Spread",
+				"material": "Alluvium\/soil\/fill",
+				"area": "10-100",
+				"facilities": "Other",
+				"notes": "Parking lot affected by lateral flow",
+				"description": "37.45565, -122.17209",
+				"accuracy": "100.00",
+				"zaccuracy": "114.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "181",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17112, 37.45625, 57.16
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "MST",
+				"recorded": "2012-10-05 18:13:32 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "1349460806906.jpg",
+				"type": "Other",
+				"material": "",
+				"area": "",
+				"facilities": "",
+				"notes": "dog posing",
+				"description": "37.45625, -122.17112",
+				"accuracy": "80.15",
+				"zaccuracy": "114.06",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "226",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.22165, 38.89344, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Mon, Oct 15 2012 3:31pm",
+				"timezone": "EDT",
+				"recorded": "2012-10-15 20:20:18 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"type": "Fall",
+				"material": "Sedimentary rock",
+				"area": "100-1000",
+				"facilities": "Buildings",
+				"notes": "This is a SpotOnResponse inserted Field Notes report.",
+				"description": "38.89344, -77.22165",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": "IG-5c961955-16a5-4d90-9031-6ccb654cc871"
+			}
+		}, {
+			"type": "Feature",
+			"id": "264",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.5517, 34.04003
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "",
+				"timezone": "",
+				"device-lat": 0,
+				"device-lon": 0,
+				"recorded": "2012-10-17 20:49:36 UTC",
+				"synced": "2012-10-17 20:53:59 UTC",
+				"operator": "Tim.McCrink@conservation.ca.gov",
+				"site": "Cliffs at pacific palisades",
+				"photo": "siang_3_640.jpg",
+				"type": "Slide",
+				"material": "Sedimentary rock",
+				"area": "100-1000",
+				"facilities": "Buildings, Utilities, Roads",
+				"notes": "",
+				"description": "unknown",
+				"accuracy": "",
+				"zaccuracy": "",
+				"igid": "IG-5c961955-16a5-4d90-9031-6ccb654cc871"
+			}
+		}, {
+			"type": "Feature",
+			"id": "300",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-117.9803, 33.77216
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Tue, Mar 5 2013 9:11am",
+				"timezone": "PST",
+				"device-lat": 37.45383,
+				"device-lon": -122.18219,
+				"recorded": "2013-03-05 17:12:08 UTC",
+				"synced": "",
+				"operator": "ernie.dipko@gmail.com",
+				"site": "spoton test1",
+				"photo": "",
+				"type": "",
+				"material": "",
+				"area": "",
+				"facilities": "",
+				"notes": "",
+				"description": "",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": "IG-5c961955-16a5-4d90-9031-6ccb654cc871"
+			}
+		}, {
+			"type": "Feature",
+			"id": "315",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27252, 37.80409, 0
+				]
+			},
+			"properties": {
+				"form": "Landslide",
+				"timestamp": "Tue, Apr 30 2013 1:30pm",
+				"timezone": "PDT",
+				"recorded": "2013-04-30 20:31:20 UTC",
+				"synced": "",
+				"operator": "patrick@eeri.org",
+				"site": "",
+				"photo": "",
+				"type": "",
+				"material": "",
+				"area": "",
+				"facilities": "",
+				"notes": "",
+				"description": "",
+				"accuracy": "86.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "5",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17108, 37.4564, 52.11
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Fri, Dec 16 2011 11:05am",
+				"timezone": "PST",
+				"recorded": "2011-12-16 18:05:35 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "yyt",
+				"photo": "",
+				"blows": "no",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.4564, -122.17108",
+				"accuracy": "30.00",
+				"zaccuracy": "57.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "9",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-81.83631, 41.41029, 187.56
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Dec 22 2011 3:35pm",
+				"timezone": "EST",
+				"recorded": "2011-12-22 19:36:36 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "yes",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "Miserable conditions.  Send in army to kill all natives.  ",
+				"description": "41.41029, -81.83631",
+				"accuracy": "1065.57",
+				"zaccuracy": "131.99",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "21",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-70.62165, 41.74095, 17.95
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Fri, Mar 2 2012 7:19pm",
+				"timezone": "EST",
+				"recorded": "2012-03-02 23:20:07 UTC",
+				"synced": "",
+				"operator": "rthieler@usgs.gov",
+				"site": "here",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "no",
+				"spreading": "no",
+				"horizontal": "10.0",
+				"vertical": "5.0",
+				"notes": "Check",
+				"description": "41.74095, -70.62165",
+				"accuracy": "74.75",
+				"zaccuracy": "15.20",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "25",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-70.63472, 41.61313, 33.59
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Tue, Mar 13 2012 7:45pm",
+				"timezone": "EDT",
+				"recorded": "2012-03-13 23:46:12 UTC",
+				"synced": "2012-03-13 23:47:06 UTC",
+				"operator": "me@here.com",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "no",
+				"spreading": "",
+				"horizontal": "2.0",
+				"vertical": "",
+				"notes": "",
+				"description": "41.61313, -70.63472",
+				"accuracy": "845.82",
+				"zaccuracy": "140.56",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "29",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41569, 37.79095, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Apr 18 2012 12:19pm",
+				"timezone": "PDT",
+				"recorded": "2012-04-18 19:19:23 UTC",
+				"synced": "",
+				"operator": "scott",
+				"site": "test",
+				"photo": "",
+				"blows": "no",
+				"settlement": "yes",
+				"spreading": "no",
+				"horizontal": "",
+				"vertical": "2.0",
+				"notes": "\"testing...\"\\",
+				"description": "37.79095, -122.41569",
+				"accuracy": "80.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "45",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, May 9 2012 4:23pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-09 23:23:38 UTC",
+				"synced": "",
+				"operator": "Luke Blair",
+				"site": "",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45383, -122.18219",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "48",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.44184, 37.75467, 147.19
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, May 10 2012 8:54am",
+				"timezone": "PDT",
+				"recorded": "2012-05-10 15:54:25 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "no",
+				"spreading": "yes",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "Test",
+				"description": "37.75467, -122.44184",
+				"accuracy": "80.78",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "49",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.44215, 37.75473, 147.04
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, May 10 2012 8:54am",
+				"timezone": "PDT",
+				"recorded": "2012-05-10 15:54:53 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "test",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.75473, -122.44215",
+				"accuracy": "30.00",
+				"zaccuracy": "57.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "50",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.28563, 37.8482, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, May 17 2012 4:57pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-17 23:58:10 UTC",
+				"synced": "",
+				"operator": "dan@technigami.com",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.8482, -122.28563",
+				"accuracy": "30.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "51",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.28563, 37.8482, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, May 17 2012 4:57pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-17 23:58:22 UTC",
+				"synced": "",
+				"operator": "dan@technigami.com",
+				"site": "",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "no",
+				"spreading": "no",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.8482, -122.28563",
+				"accuracy": "30.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "59",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2736, 37.8006, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, May 24 2012 4:37pm",
+				"timezone": "",
+				"recorded": "2012-05-24 23:37:08 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org ",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "no",
+				"spreading": "no",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.8006, -122.2736",
+				"accuracy": "1263.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "73",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.12814, 34.13672, 230.48
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, May 30 2012 11:15am",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 18:15:45 UTC",
+				"synced": "",
+				"operator": "anne.rosinske@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "1.0",
+				"vertical": "",
+				"notes": "",
+				"description": "34.13672, -118.12814",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "85",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.39545, 34.6585, 1046.07
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, May 30 2012 12:07pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:08:16 UTC",
+				"synced": "",
+				"operator": "kscharer@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "no",
+				"spreading": "yes",
+				"horizontal": "1.0",
+				"vertical": "1.0",
+				"notes": "",
+				"description": "34.6585, -118.39545",
+				"accuracy": "1500.00",
+				"zaccuracy": "57.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "92",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.05186, 37.68617, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, May 30 2012 12:21pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:23:07 UTC",
+				"synced": "",
+				"operator": "hstenner@gmail.com",
+				"site": "",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "12.0",
+				"vertical": "3.0",
+				"notes": "Units for displacement in cm (need to have drop down menu or be able to input text in those fields for units)",
+				"description": "37.68617, -122.05186",
+				"accuracy": "98.00",
+				"zaccuracy": "0.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "157",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.30073, 37.80661, 6.66
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Aug 2 2012 5:28pm",
+				"timezone": "PDT",
+				"recorded": "2012-08-03 00:29:41 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "bart",
+				"photo": "",
+				"blows": "",
+				"settlement": "yes",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.80661, -122.30073",
+				"accuracy": "2224.21",
+				"zaccuracy": "98.76",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "158",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.30075, 37.80661, 6.66
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Aug 2 2012 5:29pm",
+				"timezone": "PDT",
+				"recorded": "2012-08-03 00:30:04 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.80661, -122.30075",
+				"accuracy": "2239.24",
+				"zaccuracy": "98.76",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "160",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.30079, 37.8066, 6.66
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Aug 2 2012 5:30pm",
+				"timezone": "PDT",
+				"recorded": "2012-08-03 00:30:46 UTC",
+				"synced": "2012-08-03 00:34:51 UTC",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "no",
+				"spreading": "yes",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.8066, -122.30079",
+				"accuracy": "3316.78",
+				"zaccuracy": "98.76",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "159",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.3018, 37.80645, 6.66
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Aug 2 2012 5:32pm",
+				"timezone": "PDT",
+				"recorded": "2012-08-03 00:32:27 UTC",
+				"synced": "2012-08-03 00:34:50 UTC",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.80645, -122.3018",
+				"accuracy": "5021.93",
+				"zaccuracy": "98.76",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "166",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17264, 37.45679, 16.92
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Fri, Aug 31 2012 3:14pm",
+				"timezone": "PDT",
+				"recorded": "2012-08-31 22:14:16 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45679, -122.17264",
+				"accuracy": "65.00",
+				"zaccuracy": "13.04",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "167",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-75.11283, 38.53205, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Sep 12 2012 5:51pm",
+				"timezone": "EDT",
+				"recorded": "2012-09-12 22:44:49 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "yes",
+				"spreading": "no",
+				"horizontal": "10.0",
+				"vertical": "100.0",
+				"notes": "Noest on s location or a problem.",
+				"description": "38.53205, -75.11283",
+				"accuracy": "97.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "169",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17127, 37.45704, 26.32
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Tue, Sep 18 2012 7:55am",
+				"timezone": "PDT",
+				"recorded": "2012-09-18 14:55:22 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45704, -122.17127",
+				"accuracy": "100.00",
+				"zaccuracy": "10.45",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "170",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18245, 37.45501, 18.55
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Tue, Sep 18 2012 4:12pm",
+				"timezone": "PDT",
+				"recorded": "2012-09-18 23:12:16 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45501, -122.18245",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "174",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17105, 37.45651, 28
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Sep 27 2012 1:52pm",
+				"timezone": "PDT",
+				"recorded": "2012-09-27 20:53:01 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "",
+				"spreading": "no",
+				"horizontal": "10.0",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45651, -122.17105",
+				"accuracy": "10.00",
+				"zaccuracy": "8.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "175",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.1709, 37.45577, 27
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Sep 27 2012 2:02pm",
+				"timezone": "PDT",
+				"recorded": "2012-09-27 21:03:09 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "yes",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "5.0",
+				"notes": "",
+				"description": "37.45577, -122.1709",
+				"accuracy": "1414.00",
+				"zaccuracy": "256.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "176",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17085, 37.45697, 61
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Mon, Oct 1 2012 4:41pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-01 23:41:45 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "yes",
+				"spreading": "no",
+				"horizontal": "15.0",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45697, -122.17085",
+				"accuracy": "100.00",
+				"zaccuracy": "28.66",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "184",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17282, 37.45456, 60.49
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "PST",
+				"recorded": "2012-10-09 22:20:21 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "1349821219057.jpg",
+				"blows": "no",
+				"settlement": "no",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45456, -122.17282",
+				"accuracy": "4948.00",
+				"zaccuracy": "70.91",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "185",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17282, 37.45456, 60.49
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "PST",
+				"recorded": "2012-10-09 22:37:34 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "1349822251443.jpg",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45456, -122.17282",
+				"accuracy": "4948.00",
+				"zaccuracy": "70.91",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "186",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17282, 37.45456, 60.49
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "PST",
+				"recorded": "2012-10-09 22:39:32 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "no photo test",
+				"photo": "",
+				"blows": "",
+				"settlement": "no",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45456, -122.17282",
+				"accuracy": "4948.00",
+				"zaccuracy": "70.91",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "193",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.39898, 37.7608, 28.57
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Oct 11 2012 9:17pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-12 04:18:11 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"blows": "",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "2.5",
+				"vertical": "0.3",
+				"notes": "",
+				"description": "37.7608, -122.39898",
+				"accuracy": "65.00",
+				"zaccuracy": "30.26",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "235",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.10828, 38.88338, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Tue, Oct 16 2012 12:09pm",
+				"timezone": "EDT",
+				"recorded": "2012-10-16 19:30:39 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "M 3.3 Earthquake Mexico",
+				"photo": "",
+				"blows": "no",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "30.0",
+				"vertical": "0.5",
+				"notes": "Checking out this liquefaction just south of the church parking lot.",
+				"description": "38.88338, -77.10828",
+				"accuracy": "58.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "237",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17078, 37.45692, 14.09
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Tue, Oct 16 2012 12:29pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-16 20:15:48 UTC",
+				"synced": "2012-10-16 20:16:22 UTC",
+				"operator": "shaefner@usgs.gov",
+				"site": "usgs",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45692, -122.17078",
+				"accuracy": "65.00",
+				"zaccuracy": "12.46",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "254",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17093, 37.45568, 18.66
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Oct 17 2012 12:00pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-17 19:03:14 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"blows": "no",
+				"settlement": "yes",
+				"spreading": "no",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "Test",
+				"description": "37.45568, -122.17093",
+				"accuracy": "1414.00",
+				"zaccuracy": "59.24",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "263",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.02843, 33.71165
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Oct 17 2012 12:56pm",
+				"timezone": "PDT",
+				"device-lat": 37.53993,
+				"device-lon": -122.06281,
+				"recorded": "2012-10-17 19:57:30 UTC",
+				"synced": "2012-10-17 20:47:06 UTC",
+				"operator": "Tim.McCrink@conservation.ca.gov",
+				"site": "[JPL-NASA] Investigate: 33.6828, -118.0054",
+				"photo": "WP026-TM17_640.JPG",
+				"blows": "yes",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "0.5",
+				"vertical": "0.2",
+				"notes": "Road damage.&closure",
+				"description": "37.53993, -122.06281",
+				"accuracy": "29.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "262",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.02843, 33.71165
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Oct 17 2012 1:03pm",
+				"timezone": "PDT",
+				"device-lat": 37.53996,
+				"device-lon": -122.06285,
+				"recorded": "2012-10-17 20:03:49 UTC",
+				"synced": "2012-10-17 20:47:04 UTC",
+				"operator": "Tim.McCrink@conservation.ca.gov",
+				"site": "[JPL-NASA] Investigate: 33.6828, -118.0054",
+				"photo": "WP026-TM17_640.JPG",
+				"blows": "yes",
+				"settlement": "yes",
+				"spreading": "yes",
+				"horizontal": "0.5",
+				"vertical": "0.2",
+				"notes": "Road damage.&closure",
+				"description": "37.53996, -122.06285",
+				"accuracy": "30.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "260",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17132, 37.45475, 16.09
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Oct 17 2012 1:26pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-17 20:27:06 UTC",
+				"synced": "",
+				"operator": "swalter@usgs.gov",
+				"site": "Bldg 3 - NW corner",
+				"photo": "",
+				"blows": "no",
+				"settlement": "yes",
+				"spreading": "no",
+				"horizontal": "",
+				"vertical": "0.2",
+				"notes": "",
+				"description": "37.45475, -122.17132",
+				"accuracy": "1929.00",
+				"zaccuracy": "17.31",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "261",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17042, 37.45415
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Oct 17 2012 1:43pm",
+				"timezone": "PDT",
+				"device-lat": 37.45485,
+				"device-lon": -122.17202,
+				"recorded": "2012-10-17 20:43:34 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "M 1.6, Northern California",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "37.45485, -122.17202",
+				"accuracy": "1800.00",
+				"zaccuracy": "59.24",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "299",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.03637, 38.89511
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Mon, Dec 31 2012 11:53am",
+				"timezone": "EST",
+				"device-lat": 38.98067,
+				"device-lon": -77.10026,
+				"recorded": "2012-12-31 17:02:47 UTC",
+				"synced": "2013-03-05 01:37:37 UTC",
+				"operator": "jim@jwmorentz.com",
+				"site": "SHERWOOD AVE\/HERMITAGE RD",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "no",
+				"spreading": "no",
+				"horizontal": "23.0",
+				"vertical": "54.0",
+				"notes": "",
+				"description": "38.98066, -77.10026",
+				"accuracy": "43000.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "287",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-121.30617, 38.57006, 24.08
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Wed, Feb 20 2013 11:25am",
+				"timezone": "PST",
+				"recorded": "2013-02-20 19:26:05 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "mather",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "38.57006, -121.30617",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "296",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Mon, Mar 4 2013 1:11pm",
+				"timezone": "PST",
+				"recorded": "2013-03-04 21:12:04 UTC",
+				"synced": "",
+				"operator": "ernie.dipko@gmail.com",
+				"site": "M 7.6, Earthquake Southern San Andreas Fault (GGEx)",
+				"photo": "",
+				"blows": "",
+				"settlement": "",
+				"spreading": "",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "302",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-115.54321, 32.99715
+				]
+			},
+			"properties": {
+				"form": "Liquefaction",
+				"timestamp": "Thu, Mar 28 2013 11:13am",
+				"timezone": "PDT",
+				"device-lat": 38.57832,
+				"device-lon": -121.48766,
+				"recorded": "2013-03-28 18:13:33 UTC",
+				"synced": "",
+				"operator": "Anne.rosinski@conservation.ca.gov",
+				"site": "Hospital",
+				"photo": "",
+				"blows": "yes",
+				"settlement": "",
+				"spreading": "yes",
+				"horizontal": "",
+				"vertical": "",
+				"notes": "",
+				"description": "",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "1",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17159, 37.45636, 9
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Dec 15 2011 2:49pm",
+				"timezone": "PST",
+				"recorded": "2011-12-15 21:49:32 UTC",
+				"synced": "",
+				"operator": "Scott",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45636, -122.17159",
+				"accuracy": "732.80",
+				"zaccuracy": "16.06",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "2",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17249, 37.45404, 23
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Dec 16 2011 11:01am",
+				"timezone": "PST",
+				"recorded": "2011-12-16 18:02:01 UTC",
+				"synced": "",
+				"operator": "Scott",
+				"site": "test...",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "55",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45404, -122.17249",
+				"accuracy": "1605.58",
+				"zaccuracy": "10.09",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "3",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17099, 37.45573, 19.54
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Dec 16 2011 11:04am",
+				"timezone": "PST",
+				"recorded": "2011-12-16 18:04:22 UTC",
+				"synced": "",
+				"operator": "Eleyne phillips",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "15",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45573, -122.17099",
+				"accuracy": "872.99",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "4",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17088, 37.45629, 59.85
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Dec 16 2011 11:05am",
+				"timezone": "PST",
+				"recorded": "2011-12-16 18:05:18 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "USGS Menlo",
+				"photo": "",
+				"surface": "scarp",
+				"offset": "Pipeline,Other",
+				"azimuth": "280",
+				"plunge": "15",
+				"length": "1.0",
+				"notes": "USGS Menlo rupture",
+				"description": "37.45629, -122.17088",
+				"accuracy": "50.00",
+				"zaccuracy": "95.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "6",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17075, 37.45677, -10
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Dec 16 2011 12:28pm",
+				"timezone": "PST",
+				"recorded": "2011-12-16 19:28:35 UTC",
+				"synced": "",
+				"operator": "Scott",
+				"site": "test private mode",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45677, -122.17075",
+				"accuracy": "161.97",
+				"zaccuracy": "33.80",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "8",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-81.83631, 41.41028, 213.32
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Dec 22 2011 3:27pm",
+				"timezone": "EST",
+				"recorded": "2011-12-22 19:27:53 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "41.41028, -81.83631",
+				"accuracy": "1017.17",
+				"zaccuracy": "38.45",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "13",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17125, 37.4564, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Jan 13 2012 12:52pm",
+				"timezone": "PST",
+				"recorded": "2012-01-13 19:54:51 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.4564, -122.17125",
+				"accuracy": "30.00",
+				"zaccuracy": "57.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "14",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17509, 37.44272, 22.24
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Jan 13 2012 12:58pm",
+				"timezone": "PST",
+				"recorded": "2012-01-13 19:59:20 UTC",
+				"synced": "",
+				"operator": "swalter@usgs.gov",
+				"site": "MP",
+				"photo": "",
+				"surface": "",
+				"offset": "Concrete foundation",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.44272, -122.17509",
+				"accuracy": "2750.00",
+				"zaccuracy": "38.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "20",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-70.63397, 41.61307, 66.59
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Mar 1 2012 7:36pm",
+				"timezone": "EST",
+				"recorded": "2012-03-01 23:36:46 UTC",
+				"synced": "",
+				"operator": "rthieler@usgs.gov",
+				"site": "test",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "180",
+				"plunge": "25",
+				"length": "100.0",
+				"notes": "Test",
+				"description": "41.61307, -70.63397",
+				"accuracy": "47.42",
+				"zaccuracy": "70.28",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "23",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.10227, 38.98835, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Tue, Mar 6 2012 6:27pm",
+				"timezone": "EST",
+				"recorded": "2012-03-06 22:28:32 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk,Concrete foundation",
+				"azimuth": "2",
+				"plunge": "1",
+				"length": "0.0",
+				"notes": "testing a Bethesda Maryland quake",
+				"description": "38.98835, -77.10227",
+				"accuracy": "839.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "26",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-70.63432, 41.61315, 33.59
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Tue, Mar 13 2012 7:44pm",
+				"timezone": "EDT",
+				"recorded": "2012-03-13 23:45:07 UTC",
+				"synced": "2012-03-13 23:47:06 UTC",
+				"operator": "me@here.com",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil,Pipeline",
+				"azimuth": "",
+				"plunge": "",
+				"length": "10.0",
+				"notes": "",
+				"description": "unknown",
+				"accuracy": "47.42",
+				"zaccuracy": "70.28",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "27",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.10258, 38.98857, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Apr 6 2012 5:07pm",
+				"timezone": "EDT",
+				"recorded": "2012-04-06 21:07:39 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "38.98857, -77.10258",
+				"accuracy": "879.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "28",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41575, 37.79087, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Apr 18 2012 12:09pm",
+				"timezone": "PDT",
+				"recorded": "2012-04-18 19:10:16 UTC",
+				"synced": "",
+				"operator": "scott",
+				"site": "test",
+				"photo": "",
+				"surface": "en eschelon",
+				"offset": "Soil, Road or sidewalk, Other",
+				"azimuth": "1",
+				"plunge": "2",
+				"length": "3.0",
+				"notes": "testing...",
+				"description": "37.79087, -122.41575",
+				"accuracy": "80.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "30",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17104, 37.45625, 15
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Apr 26 2012 4:13pm",
+				"timezone": "PDT",
+				"recorded": "2012-04-26 23:14:13 UTC",
+				"synced": "",
+				"operator": "shaefner@usgs.gov",
+				"site": "usgs",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil, Road or sidewalk",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Testing utc date",
+				"description": "37.45625, -122.17104",
+				"accuracy": "100.00",
+				"zaccuracy": "64.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "31",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17116, 37.4565, 27
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Apr 26 2012 4:16pm",
+				"timezone": "PDT",
+				"recorded": "2012-04-26 23:16:19 UTC",
+				"synced": "2012-04-26 23:16:58 UTC",
+				"operator": "shaefner@usgs.gov",
+				"site": "usgs",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Testing utc offline",
+				"description": "37.4565, -122.17116",
+				"accuracy": "30.00",
+				"zaccuracy": "48.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "38",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 2 2012 4:11pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-02 23:14:38 UTC",
+				"synced": "",
+				"operator": "shaefner@usgs.gov",
+				"site": "USGS",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "test",
+				"description": "37.45383, -122.18219",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "40",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41574, 37.79077, 99
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Mon, May 7 2012 3:53pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-07 22:53:46 UTC",
+				"synced": "2012-05-07 22:54:34 UTC",
+				"operator": "scott",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.79077, -122.41574",
+				"accuracy": "5.00",
+				"zaccuracy": "6.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "43",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.15483, 37.47264, 24.6
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 9 2012 12:57pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-09 19:57:44 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Concrete foundation",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Ate too much - concrete ruptured",
+				"description": "37.47264, -122.15483",
+				"accuracy": "10.00",
+				"zaccuracy": "17.76",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "55",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2736, 37.8006, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, May 24 2012 4:15pm",
+				"timezone": "",
+				"recorded": "2012-05-24 23:16:17 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org ",
+				"site": "test ",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.8006, -122.2736",
+				"accuracy": "1263.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "56",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2736, 37.8006, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, May 24 2012 4:18pm",
+				"timezone": "",
+				"recorded": "2012-05-24 23:18:46 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org ",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.8006, -122.2736",
+				"accuracy": "1263.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "57",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2736, 37.8006, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, May 24 2012 4:23pm",
+				"timezone": "",
+				"recorded": "2012-05-24 23:23:57 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org ",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.8006, -122.2736",
+				"accuracy": "1263.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "58",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2736, 37.8006, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, May 24 2012 4:24pm",
+				"timezone": "",
+				"recorded": "2012-05-24 23:24:26 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org ",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "5",
+				"plunge": "5",
+				"length": "5.0",
+				"notes": "",
+				"description": "37.8006, -122.2736",
+				"accuracy": "1263.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "71",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-123.24906, 49.26395, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 11:12am",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 18:12:41 UTC",
+				"synced": "",
+				"operator": "semolnar@mail.ubc.ca",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "30",
+				"plunge": "",
+				"length": "15.0",
+				"notes": "",
+				"description": "49.26395, -123.24906",
+				"accuracy": "65.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "76",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.12811, 34.13675, 230.38
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 11:22am",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 18:22:48 UTC",
+				"synced": "",
+				"operator": "anne.rosinske@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "45",
+				"plunge": "15",
+				"length": "0.0",
+				"notes": "",
+				"description": "34.13675, -118.12811",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "77",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-123.25249, 49.26279, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 11:26am",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 18:25:03 UTC",
+				"synced": "",
+				"operator": "semolnar@mail.ubc.ca",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Concrete foundation",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "49.26279, -123.25249",
+				"accuracy": "1414.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "82",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.39533, 34.65861, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 12:01pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:02:57 UTC",
+				"synced": "",
+				"operator": "kscharer@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "310",
+				"plunge": "0",
+				"length": "3.0",
+				"notes": "Very accurate!",
+				"description": "34.65861, -118.39533",
+				"accuracy": "473.27",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "86",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17158, 37.45589, 31.3
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 12:07pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:10:38 UTC",
+				"synced": "",
+				"operator": "dschwartz@usgs.gov",
+				"site": "MP Parking lot",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "37",
+				"plunge": "10",
+				"length": "13.0",
+				"notes": "New fault through USGS",
+				"description": "37.45589, -122.17158",
+				"accuracy": "10.00",
+				"zaccuracy": "18.25",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "88",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27236, 37.80404, 44.67
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 12:17pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:17:58 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.80404, -122.27236",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "90",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.43538, 37.73813, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Sat, Mar 21 1981 9:33pm",
+				"timezone": "MST",
+				"recorded": "2012-05-30 19:19:21 UTC",
+				"synced": "",
+				"operator": "mgreene@eeri.org",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "do I answer each question, record, and then go back to next question?",
+				"description": "37.73813, -122.43538",
+				"accuracy": "98.68",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "94",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2724, 37.80421, 45.51
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 12:44pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 19:45:21 UTC",
+				"synced": "",
+				"operator": "hfaison@berkeley.edu",
+				"site": "eeri office",
+				"photo": "",
+				"surface": "moletrack",
+				"offset": "Bedrock",
+				"azimuth": "40",
+				"plunge": "20",
+				"length": "30.0",
+				"notes": "Test",
+				"description": "37.80421, -122.2724",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "105",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-111.9308, 33.41875, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, May 30 2012 1:54pm",
+				"timezone": "PDT",
+				"recorded": "2012-05-30 20:54:52 UTC",
+				"synced": "",
+				"operator": "ramon.arrowsmith@asu.edu",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "None here",
+				"description": "33.41875, -111.9308",
+				"accuracy": "411.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "127",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17154, 37.4568, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Jul 18 2012 1:02pm",
+				"timezone": "PDT",
+				"recorded": "2012-07-18 20:05:30 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "USGS Menlo",
+				"photo": "1342641928867.jpg",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Testing upload",
+				"description": "37.4568, -122.17154",
+				"accuracy": "198.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "150",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41562, 37.79067, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Jul 19 2012 1:04pm",
+				"timezone": "PDT",
+				"recorded": "2012-07-20 00:59:51 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "sf",
+				"photo": "1342745987975.jpg",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Testing upload again...",
+				"description": "37.79067, -122.41562",
+				"accuracy": "45.36",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "154",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17115, 37.45536, 27
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Jul 27 2012 12:42pm",
+				"timezone": "PDT",
+				"recorded": "2012-07-27 19:49:18 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "",
+				"photo": "",
+				"surface": "scarp",
+				"offset": "Bedrock",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45536, -122.17115",
+				"accuracy": "1414.00",
+				"zaccuracy": "30.84",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "155",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17023, 37.45426, 9.24
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Aug 1 2012 4:39pm",
+				"timezone": "PDT",
+				"recorded": "2012-08-01 23:40:22 UTC",
+				"synced": "",
+				"operator": "lblair",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45426, -122.17023",
+				"accuracy": "2533.00",
+				"zaccuracy": "38.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "162",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.4377, 37.75948, 162.89
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Aug 3 2012 8:18am",
+				"timezone": "PDT",
+				"recorded": "2012-08-03 15:18:48 UTC",
+				"synced": "2012-08-03 16:46:09 UTC",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.75948, -122.4377",
+				"accuracy": "1414.00",
+				"zaccuracy": "11.41",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "163",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2731, 37.80362, 35.15
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Aug 3 2012 9:47am",
+				"timezone": "PDT",
+				"recorded": "2012-08-03 16:48:22 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "testsite5",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Testing coors edit",
+				"description": "38.62, -120",
+				"accuracy": "89.10",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "168",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-120.03699, 39.77493, 1471.52
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Sun, Sep 16 2012 12:40pm",
+				"timezone": "PDT",
+				"recorded": "2012-09-16 19:41:10 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Small normal fault",
+				"description": "39.77493, -120.03699",
+				"accuracy": "47.42",
+				"zaccuracy": "70.28",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "171",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.07084, 38.99489, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Sep 26 2012 4:45pm",
+				"timezone": "EDT",
+				"recorded": "2012-09-26 21:01:50 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"surface": "scarp",
+				"offset": "Soil, Road or sidewalk, Concrete foundation",
+				"azimuth": "4",
+				"plunge": "3",
+				"length": "14.0",
+				"notes": "Sidewalk outside of school",
+				"description": "38.99489, -77.07084",
+				"accuracy": "43000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "172",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17077, 37.45568, 21
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Sep 27 2012 1:52pm",
+				"timezone": "PDT",
+				"recorded": "2012-09-27 20:52:18 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock, Pipeline",
+				"azimuth": "15",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45568, -122.17077",
+				"accuracy": "1414.00",
+				"zaccuracy": "12.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "177",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.10026, 38.98067, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Oct 3 2012 2:59pm",
+				"timezone": "EDT",
+				"recorded": "2012-10-03 20:36:02 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock, Concrete foundation",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "38.98066, -77.10026",
+				"accuracy": "43000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "179",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17095, 37.45675, 28
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Fri, Oct 5 2012 11:04am",
+				"timezone": "PDT",
+				"recorded": "2012-10-05 18:04:29 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock, Concrete foundation",
+				"azimuth": "15",
+				"plunge": "",
+				"length": "10.0",
+				"notes": "",
+				"description": "37.45675, -122.17095",
+				"accuracy": "50.00",
+				"zaccuracy": "64.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "182",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17116, 37.45632, 20
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "MST",
+				"recorded": "2012-10-05 18:33:18 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "usgs",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45632, -122.17116",
+				"accuracy": "478.27",
+				"zaccuracy": "32.63",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "187",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.4154, 37.7906, 54.05
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "MST",
+				"recorded": "2012-10-10 16:58:09 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "test",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "2.0",
+				"notes": "",
+				"description": "37.7906, -122.4154",
+				"accuracy": "439.67",
+				"zaccuracy": "67.77",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "188",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41577, 37.7909, 84.5
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "MST",
+				"recorded": "2012-10-10 17:03:15 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "test decimal",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "2.0",
+				"notes": "",
+				"description": "37.7909, -122.41577",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "189",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41577, 37.79102, 92.71
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Nov 30 -0001 12:00am",
+				"timezone": "MST",
+				"recorded": "2012-10-10 17:04:53 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "test decimal",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "2.4",
+				"notes": "",
+				"description": "37.79102, -122.41577",
+				"accuracy": "65.00",
+				"zaccuracy": "21.05",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "225",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.22165, 38.89344, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Mon, Oct 15 2012 3:31pm",
+				"timezone": "EDT",
+				"recorded": "2012-10-15 19:31:47 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "2",
+				"plunge": "4",
+				"length": "6.0",
+				"notes": "Looking at new entry for Field Notes in DC",
+				"description": "38.89344, -77.22165",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "230",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17232, 37.45531, 14
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Mon, Oct 15 2012 3:49pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-15 22:50:18 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock, Pipeline",
+				"azimuth": "13",
+				"plunge": "82",
+				"length": "3.0",
+				"notes": "",
+				"description": "37.45531, -122.17232",
+				"accuracy": "1264.46",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "231",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17251, 37.45542, 14
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Mon, Oct 15 2012 3:50pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-15 22:50:50 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45542, -122.17251",
+				"accuracy": "1236.45",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "233",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-117.15726, 32.71533
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Tue, Oct 16 2012 12:09pm",
+				"timezone": "EDT",
+				"device-lat": 38.88338,
+				"device-lon": -77.10828,
+				"recorded": "2012-10-16 16:10:53 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "2",
+				"plunge": "4",
+				"length": "6.0",
+				"notes": "These are the faults that have ruptured.",
+				"description": "38.88338, -77.10828",
+				"accuracy": "58.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "234",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-117.9803, 33.77216
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Tue, Oct 16 2012 12:13pm",
+				"timezone": "PDT",
+				"device-lat": 37.45383,
+				"device-lon": -122.18219,
+				"recorded": "2012-10-16 19:14:13 UTC",
+				"synced": "",
+				"operator": "ernie.dipko@gmail.com",
+				"site": "M 7.6, Earthquake Southern San Andreas Fault (GGEx)",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45383, -122.18219",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "236",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17075, 37.4569, 23
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Tue, Oct 16 2012 1:06pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-16 20:08:47 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "usgs menlo",
+				"photo": "",
+				"surface": "scarp",
+				"offset": "Road or sidewalk",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Largest rupture I\\'ve ever seen!!! Omg!",
+				"description": "37.4569, -122.17075",
+				"accuracy": "65.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "238",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17078, 37.45692, 14.09
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Tue, Oct 16 2012 12:29pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-16 20:17:06 UTC",
+				"synced": "",
+				"operator": "shaefner@usgs.gov",
+				"site": "",
+				"photo": "1350418626333.jpg",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.45692, -122.17078",
+				"accuracy": "65.00",
+				"zaccuracy": "12.46",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "242",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.55015, 34.03855
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Oct 17 2012 11:27am",
+				"timezone": "PDT",
+				"device-lat": 37.80405,
+				"device-lon": -122.27223,
+				"recorded": "2012-10-17 18:28:20 UTC",
+				"synced": "",
+				"operator": "hgallagher@eeri.org",
+				"site": "Good Samaritan Hospital",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock, Pipeline",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "34.060978, -118.265107",
+				"accuracy": "65.00",
+				"zaccuracy": "16.20",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "243",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27223, 37.80405, 20
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Oct 17 2012 11:27am",
+				"timezone": "PDT",
+				"recorded": "2012-10-17 18:31:05 UTC",
+				"synced": "",
+				"operator": "hgallagher@eeri.org",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "37.80405, -122.27223",
+				"accuracy": "65.00",
+				"zaccuracy": "16.20",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "255",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.12834, 34.13677
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Sun, Jul 12 1981 9:25am",
+				"timezone": "PDT",
+				"device-lat": 34.13697,
+				"device-lon": -118.12819,
+				"recorded": "2012-10-17 19:09:09 UTC",
+				"synced": "",
+				"operator": "hudnut@usgs.gov",
+				"site": "M 7.6, Earthquake Southern San Andreas Fault (GGEx)",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "4.0",
+				"notes": "34.265,-117.450",
+				"description": "34.13697, -118.12819",
+				"accuracy": "65.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "258",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27396, 37.80075, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Oct 17 2012 12:32pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-17 19:32:37 UTC",
+				"synced": "",
+				"operator": "jon@eeri.org",
+				"site": "",
+				"photo": "",
+				"surface": "",
+				"offset": "Concrete foundation",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Foundation heavily cracked",
+				"description": "37.80075, -122.27396",
+				"accuracy": "1194.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "259",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17237, 37.4558, 14
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Oct 17 2012 1:19pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-17 20:20:02 UTC",
+				"synced": "",
+				"operator": "swalter@usgs.gov",
+				"site": "usgs MP",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "272",
+				"plunge": "23",
+				"length": "0.5",
+				"notes": "Omg!!",
+				"description": "37.4558, -122.17237",
+				"accuracy": "65.00",
+				"zaccuracy": "14.45",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "265",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-116.30684, 33.83575
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Oct 17 2012 1:58pm",
+				"timezone": "PDT",
+				"device-lat": 38.58157,
+				"device-lon": -121.4944,
+				"recorded": "2012-10-17 21:08:43 UTC",
+				"synced": "",
+				"operator": "Jerry.Treiman@conservation.ca.gov",
+				"site": "fault rupture",
+				"photo": "1350508128631.JPG",
+				"surface": "",
+				"offset": "Bedrock, Road or sidewalk",
+				"azimuth": "130",
+				"plunge": "0",
+				"length": "0.1",
+				"notes": "discontinuous en echelon rupture along Mission Creek strand, SE of oasis; photo along fault northwest of oasis where rupture was reduced to minor cracking along vegetation lineament",
+				"description": "38.58157, -121.4944",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "281",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-121.54719, 38.57468, 8
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Feb 20 2013 8:49am",
+				"timezone": "PST",
+				"recorded": "2013-02-20 16:50:37 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "180",
+				"photo": "1361379036366.jpg",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Testing!",
+				"description": "38.57468, -121.54719",
+				"accuracy": "1171.14",
+				"zaccuracy": "16.06",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "282",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-121.50081, 38.56538, 6.27
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Feb 20 2013 8:52am",
+				"timezone": "PST",
+				"recorded": "2013-02-20 16:52:30 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "test",
+				"photo": "1361379149527.jpg",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "38.56538, -121.50081",
+				"accuracy": "165.00",
+				"zaccuracy": "24.29",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "290",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-121.74052, 38.54491, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Feb 20 2013 11:32am",
+				"timezone": "PST",
+				"recorded": "2013-02-20 19:33:45 UTC",
+				"synced": "",
+				"operator": "qjhart@ucdavis.edu",
+				"site": "",
+				"photo": "",
+				"surface": "moletrack",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "This is a test ",
+				"description": "38.54491, -121.74052",
+				"accuracy": "22000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "291",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-121.74052, 38.54491, 0
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Feb 20 2013 11:32am",
+				"timezone": "PST",
+				"recorded": "2013-02-20 19:35:26 UTC",
+				"synced": "",
+				"operator": "qjhart@ucdavis.edu",
+				"site": "",
+				"photo": "",
+				"surface": "moletrack",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "Test two",
+				"description": "38.54491, -121.74052",
+				"accuracy": "22000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "292",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-121.30619, 38.57002, 23.13
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Feb 20 2013 12:00pm",
+				"timezone": "PST",
+				"recorded": "2013-02-20 20:00:51 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "test",
+				"photo": "",
+				"surface": "",
+				"offset": "Bedrock",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "-20,120",
+				"accuracy": "65.00",
+				"zaccuracy": "10.27",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "297",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-85.70862, 38.24585
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Mon, Mar 4 2013 8:20pm",
+				"timezone": "EST",
+				"device-lat": 38.98739,
+				"device-lon": -77.10258,
+				"recorded": "2013-03-05 01:33:36 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "This is Ithaca",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "33",
+				"plunge": "3",
+				"length": "200.0",
+				"notes": "Notes on the changing lat\/long 38.2458501 -85.7086185",
+				"description": "38.2458501 -85.7086185",
+				"accuracy": "85.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "298",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-85.70862, 38.24585
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Mon, Mar 4 2013 8:34pm",
+				"timezone": "EST",
+				"device-lat": 38.98739,
+				"device-lon": -77.10258,
+				"recorded": "2013-03-05 01:37:09 UTC",
+				"synced": "",
+				"operator": "jim@jwmorentz.com",
+				"site": "This is Ithaca",
+				"photo": "",
+				"surface": "",
+				"offset": "Road or sidewalk",
+				"azimuth": "3",
+				"plunge": "4",
+				"length": "7.0",
+				"notes": "Testing lat\/long from 38.2458501 -85.7086185",
+				"description": "",
+				"accuracy": "85.00",
+				"zaccuracy": "",
+				"igid": "IG-5c961955-16a5-4d90-9031-6ccb654cc871"
+			}
+		}, {
+			"type": "Feature",
+			"id": "301",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.4158, 37.7908
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Wed, Mar 6 2013 10:49am",
+				"timezone": "PST",
+				"device-lat": 37.79081,
+				"device-lon": -122.41581,
+				"recorded": "2013-03-06 18:51:11 UTC",
+				"synced": "",
+				"operator": "shaefner@usgs.gov",
+				"site": "M1",
+				"photo": "",
+				"surface": "",
+				"offset": "Soil",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "testing SpotOn integration",
+				"description": "",
+				"accuracy": "28.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "307",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-117.9803, 33.77216
+				]
+			},
+			"properties": {
+				"form": "Fault Rupture",
+				"timestamp": "Thu, Apr 18 2013 10:52am",
+				"timezone": "PDT",
+				"device-lat": 37.45383,
+				"device-lon": -122.18219,
+				"recorded": "2013-04-18 17:52:34 UTC",
+				"synced": "",
+				"operator": "ernie.dipko@gmail.com",
+				"site": "M 7.6, Earthquake Southern San Andreas Fault (GGEx)",
+				"photo": "",
+				"surface": "",
+				"offset": "",
+				"azimuth": "",
+				"plunge": "",
+				"length": "",
+				"notes": "",
+				"description": "USGS Office",
+				"accuracy": "24000.00",
+				"zaccuracy": "",
+				"igid": "IG-79ee8521-8a7b-44fb-90fe-cd33f156d56d"
+			}
+		}, {
+			"type": "Feature",
+			"id": "190",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41578, 37.79085, 63.06
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Wed, Oct 10 2012 12:46pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-10 20:36:36 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "test",
+				"photo": "1349901397491.jpg",
+				"inundation": "200",
+				"height": "1.5",
+				"peaktrough": "3.1",
+				"cycle": "30",
+				"damage": "Extensive damage",
+				"notes": "Notes",
+				"description": "37.79085, -122.41578",
+				"accuracy": "65.00",
+				"zaccuracy": "42.14",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "191",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17128, 37.45648, 42.34
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Wed, Oct 10 2012 3:11pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-10 22:12:14 UTC",
+				"synced": "",
+				"operator": "lblair@usgs.gov",
+				"site": "",
+				"photo": "",
+				"inundation": "2",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "",
+				"description": "37.45648, -122.17128",
+				"accuracy": "50.00",
+				"zaccuracy": "95.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "192",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17089, 37.45688, 23
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Thu, Oct 11 2012 10:43am",
+				"timezone": "PDT",
+				"recorded": "2012-10-11 17:43:57 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"inundation": "",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "",
+				"description": "37.45688, -122.17089",
+				"accuracy": "165.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "222",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Fri, Oct 12 2012 4:22pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-15 17:53:16 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "USGS",
+				"photo": "",
+				"inundation": "",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "test (w\/ spoton)",
+				"description": "37.45383, -122.18219",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "223",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.18219, 37.45383, 0
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Fri, Oct 12 2012 4:22pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-15 17:53:28 UTC",
+				"synced": "",
+				"operator": "sah",
+				"site": "USGS",
+				"photo": "",
+				"inundation": "",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "test (w\/o spoton)",
+				"description": "37.45383, -122.18219",
+				"accuracy": "42000.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "228",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17288, 37.45563, 14
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Mon, Oct 15 2012 3:45pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-15 22:46:07 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"inundation": "10000",
+				"height": "10000000.0",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "",
+				"description": "37.45563, -122.17288",
+				"accuracy": "3663.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "232",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17045, 37.45425, 14
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Mon, Oct 15 2012 3:50pm",
+				"timezone": "PDT",
+				"recorded": "2012-10-15 22:51:23 UTC",
+				"synced": "",
+				"operator": "ephillips@usgs.gov",
+				"site": "",
+				"photo": "",
+				"inundation": "60000000",
+				"height": "10000.0",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "",
+				"description": "37.45425, -122.17045",
+				"accuracy": "1929.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "240",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-118.2617, 34.0476
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Wed, Oct 17 2012 10:23am",
+				"timezone": "PDT",
+				"device-lat": 34.04778,
+				"device-lon": -118.26598,
+				"recorded": "2012-10-17 17:26:03 UTC",
+				"synced": "",
+				"operator": "Jerry.Treiman@conservation.ca.gov",
+				"site": "tsunami potential",
+				"photo": "1350494763149.jpg",
+				"inundation": "",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "No tsunami observed.",
+				"notes": "I advised locals to NOT go to beach and to seek higher ground.",
+				"description": "34.04778, -118.26598",
+				"accuracy": "637.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "276",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17119, 37.45674, 12.56
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Wed, Jan 16 2013 2:52pm",
+				"timezone": "PST",
+				"recorded": "2013-01-16 23:10:35 UTC",
+				"synced": "2013-01-16 23:12:28 UTC",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "Half Moon Bay",
+				"photo": "",
+				"inundation": "0",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "None reported",
+				"notes": "",
+				"description": "37.45674, -122.17119",
+				"accuracy": "65.00",
+				"zaccuracy": "16.90",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "277",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17119, 37.45674, 12.56
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Wed, Jan 16 2013 2:52pm",
+				"timezone": "PST",
+				"recorded": "2013-01-16 23:12:33 UTC",
+				"synced": "",
+				"operator": "anne.rosinski@conservation.ca.gov",
+				"site": "Half Moon Bay",
+				"photo": "",
+				"inundation": "0",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "None reported",
+				"notes": "",
+				"description": "37.45674, -122.17119",
+				"accuracy": "65.00",
+				"zaccuracy": "16.90",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "278",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-124.16654, 41.94089
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Sat, Jan 19 2013 9:59am",
+				"timezone": "PST",
+				"device-lat": 41.96384,
+				"device-lon": -124.20025,
+				"recorded": "2013-01-19 18:00:19 UTC",
+				"synced": "",
+				"operator": "Anne.rosinski@conservation.ca.gov",
+				"site": "Tsunami observation",
+				"photo": "",
+				"inundation": "0",
+				"height": "0.2",
+				"peaktrough": "0.5",
+				"cycle": "",
+				"damage": "Light",
+				"notes": "",
+				"description": "41.96384, -124.20025",
+				"accuracy": "342.60",
+				"zaccuracy": "10.00",
+				"igid": "IG-5c961955-16a5-4d90-9031-6ccb654cc871"
+			}
+		}, {
+			"type": "Feature",
+			"id": "280",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-124.19824, 41.94399, 7.96
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "Sat, Jan 19 2013 10:17am",
+				"timezone": "PST",
+				"recorded": "2013-01-19 18:19:06 UTC",
+				"synced": "",
+				"operator": "Anne.rosinski@conservation.ca.gov",
+				"site": "",
+				"photo": "",
+				"inundation": "3",
+				"height": "",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "",
+				"notes": "3-4 m inundation max. Restaurant in inundation zones ;  potential video observation site",
+				"description": "41.94399, -124.19824",
+				"accuracy": "165.00",
+				"zaccuracy": "10.00",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "303",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.17106, 37.45674
+				]
+			},
+			"properties": {
+				"form": "Tsunami",
+				"timestamp": "",
+				"timezone": "",
+				"device-lat": 0,
+				"device-lon": 0,
+				"recorded": "2013-03-29 17:09:13 UTC",
+				"synced": "",
+				"operator": "Anne.rosinski@conservation.ca.gov",
+				"site": "M1",
+				"photo": "",
+				"inundation": "2",
+				"height": "0.5",
+				"peaktrough": "",
+				"cycle": "",
+				"damage": "Intense scouring noted at base of bridge pilings.   ",
+				"notes": "",
+				"description": "unknown",
+				"accuracy": "",
+				"zaccuracy": "",
+				"igid": "IG-cc8b8f23-0a13-42b2-b784-1ce7231418f8"
+			}
+		}, {
+			"type": "Feature",
+			"id": "309",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41563, 37.79085, 0
+				]
+			},
+			"properties": {
+				"form": "Lifelines",
+				"timestamp": "Fri, Apr 19 2013 3:57pm",
+				"timezone": "PDT",
+				"recorded": "2013-04-19 22:57:59 UTC",
+				"synced": "",
+				"operator": "scott",
+				"site": "SF",
+				"photo": "",
+				"communication": "Telephone, Telegraph, Mobile Phone, Radio and Television, Newspaper and Magazines",
+				"power": "Transmission Lines, Substation and Switchyards",
+				"other": "Water\/ Wastewater , Gas and Fuel Lines, Transportation , Other",
+				"functionality": "Fully Functional",
+				"repair": "1 - 3 years",
+				"investigation": "no",
+				"notes": "Notes...",
+				"description": "Nob Hill",
+				"accuracy": "38.00",
+				"zaccuracy": "",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "310",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.41564, 37.79082, 0
+				]
+			},
+			"properties": {
+				"form": "Buildings",
+				"timestamp": "Fri, Apr 19 2013 4:08pm",
+				"timezone": "PDT",
+				"recorded": "2013-04-19 23:09:05 UTC",
+				"synced": "",
+				"operator": "scott",
+				"site": "SF",
+				"photo": "",
+				"type": "Masonry",
+				"use": "Residential",
+				"stories": "4.0",
+				"damage": "None",
+				"investigation": "no",
+				"notes": "testing...",
+				"description": "Nob Hill",
+				"accuracy": "38.00",
+				"zaccuracy": "",
+				"igid": "IG-5c961955-16a5-4d90-9031-6ccb654cc871"
+			}
+		}, {
+			"type": "Feature",
+			"id": "311",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.27235, 37.80401, 27.91
+				]
+			},
+			"properties": {
+				"form": "Buildings",
+				"timestamp": "Tue, Apr 23 2013 12:17pm",
+				"timezone": "PDT",
+				"recorded": "2013-04-23 19:19:05 UTC",
+				"synced": "",
+				"operator": "chris",
+				"site": "eeri building test",
+				"photo": "1366744744660.jpg",
+				"type": "Masonry",
+				"use": "Commercial",
+				"stories": "2.0",
+				"damage": "None",
+				"investigation": "no",
+				"notes": "This is a test. ",
+				"description": "Interns testing ",
+				"accuracy": "65.00",
+				"zaccuracy": "17.72",
+				"igid": ""
+			}
+		}, {
+			"type": "Feature",
+			"id": "312",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-122.2723, 37.80396, 28.38
+				]
+			},
+			"properties": {
+				"form": "Buildings",
+				"timestamp": "Tue, Apr 23 2013 12:19pm",
+				"timezone": "PDT",
+				"recorded": "2013-04-23 19:20:23 UTC",
+				"synced": "",
+				"operator": "chris",
+				"site": "eeri office",
+				"photo": "1366744822373.jpg",
+				"type": "Steel",
+				"use": "Commercial",
+				"stories": "2.0",
+				"damage": "None",
+				"investigation": "no",
+				"notes": "",
+				"description": "",
+				"accuracy": "65.00",
+				"zaccuracy": "10.83",
+				"igid": ""
+			}
+		}
+	]
+}

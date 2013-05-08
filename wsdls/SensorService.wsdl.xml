@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="wsdl-viewer-mod.xsl"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://uicds.org/SensorService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://uicds.org/SensorService" targetNamespace="http://uicds.org/SensorService">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:wp="http://uicds.org/WorkProductService" xmlns:preciss="http://www.saic.com/precis/2009/06/structures" elementFormDefault="qualified" targetNamespace="http://uicds.org/SensorService">
+    <import namespace="http://www.saic.com/precis/2009/06/structures" schemaLocation="../../../precis/2009/06/Structures.xsd"/>
+    <import namespace="http://uicds.org/WorkProductService" schemaLocation="../../../services/WorkProduct/0.1/WorkProductService.xsd"/>
+
+    <element name="CreateSOIRequest">
+        <complexType>
+            <sequence>
+                <element maxOccurs="1" minOccurs="0" name="incidentID" type="string"/>
+                <element maxOccurs="1" minOccurs="1" ref="tns:SensorObservationInfo"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="CreateSOIResponse">
+        <annotation>
+            <documentation/>
+        </annotation>
+        <complexType>
+            <sequence>
+                <element ref="wp:WorkProductPublicationResponse">
+                    <annotation>
+                        <documentation>Contains the work product ID for the created SOI product.
+                        </documentation>
+					</annotation>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GetSOIRequest">
+		<complexType>
+			<all>
+				<element ref="preciss:WorkProductIdentification"/>
+			</all>
+		</complexType>
+	</element>
+	<element name="GetSOIResponse">
+		<annotation>
+			<documentation/>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element ref="preciss:WorkProduct">
+					<annotation>
+						<documentation>Contains the SOI product with the work product ID specified
+                            in the request</documentation>
+					</annotation>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="UpdateSOIRequest">
+		<complexType>
+			<all>
+				<element ref="preciss:WorkProductIdentification"/>
+				<element ref="tns:SensorObservationInfo"/>
+			</all>
+		</complexType>
+	</element>
+	<element name="UpdateSOIResponse">
+		<complexType>
+			<sequence>
+				<element ref="wp:WorkProductPublicationResponse"/>
+			</sequence>
+		</complexType>
+	</element>
+    <!-- to delete this operation. to use WorkProductService's close/archive instead 
+	<element name="DeleteSOIRequest">
+		<complexType>
+			<all>
+				<element ref="preciss:WorkProductIdentification"/>
+			</all>
+		</complexType>
+	</element>
+	<element name="DeleteSOIResponse">
+		<complexType>
+			<sequence>
+				<element ref="wp:WorkProductPublicationResponse"/>
+			</sequence>
+		</complexType>
+	</element>
+     -->
+	<element name="GetSOIListRequest">
+		<complexType>
+			<sequence>
+				<element name="incidentID" type="string"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="GetSOIListResponse">
+		<annotation>
+			<documentation/>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element ref="wp:WorkProductList"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="SensorInfo">
+		<complexType>
+			<sequence>
+
+				<element name="name" type="string"/>
+				<element name="description" type="string"/>
+				<element name="latitude" type="double"/>
+				<element name="longitude" type="double"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="SensorObservationInfo">
+		<complexType>
+			<sequence>
+
+				<element name="sosURN" type="string"/>
+				<element maxOccurs="unbounded" ref="tns:SensorInfo"/>
+				<any maxOccurs="unbounded" namespace="##other" processContents="lax"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="CreateSOIRequest">
+    <wsdl:part element="tns:CreateSOIRequest" name="CreateSOIRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSOIListResponse">
+    <wsdl:part element="tns:GetSOIListResponse" name="GetSOIListResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSOIResponse">
+    <wsdl:part element="tns:GetSOIResponse" name="GetSOIResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSOIListRequest">
+    <wsdl:part element="tns:GetSOIListRequest" name="GetSOIListRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateSOIResponse">
+    <wsdl:part element="tns:UpdateSOIResponse" name="UpdateSOIResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UpdateSOIRequest">
+    <wsdl:part element="tns:UpdateSOIRequest" name="UpdateSOIRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetSOIRequest">
+    <wsdl:part element="tns:GetSOIRequest" name="GetSOIRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CreateSOIResponse">
+    <wsdl:part element="tns:CreateSOIResponse" name="CreateSOIResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="SensorService">
+    <wsdl:operation name="UpdateSOI">
+      <wsdl:input message="tns:UpdateSOIRequest" name="UpdateSOIRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:UpdateSOIResponse" name="UpdateSOIResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSOI">
+      <wsdl:input message="tns:CreateSOIRequest" name="CreateSOIRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:CreateSOIResponse" name="CreateSOIResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSOI">
+      <wsdl:input message="tns:GetSOIRequest" name="GetSOIRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetSOIResponse" name="GetSOIResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSOIList">
+      <wsdl:input message="tns:GetSOIListRequest" name="GetSOIListRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:GetSOIListResponse" name="GetSOIListResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SensorServiceSoap11" type="tns:SensorService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="UpdateSOI">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="UpdateSOIRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="UpdateSOIResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateSOI">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="CreateSOIRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="CreateSOIResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSOI">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetSOIRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetSOIResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSOIList">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="GetSOIListRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="GetSOIListResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SensorServiceService">
+    <wsdl:port binding="tns:SensorServiceSoap11" name="SensorServiceSoap11">
+      <soap:address location="https://127.0.0.1:443/uicds/core/ws/services/SensorSerivce"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
