@@ -14,27 +14,18 @@ import javax.xml.namespace.NamespaceContext;
 import javax.xml.parsers.*;
 import javax.xml.xpath.*;
 
-import org.apache.xmlbeans.XmlException;
 import org.jivesoftware.smack.Chat;
 import org.jivesoftware.smack.ChatManager;
 import org.jivesoftware.smack.ChatManagerListener;
 import org.jivesoftware.smack.Connection;
 import org.jivesoftware.smack.ConnectionConfiguration;
 import org.jivesoftware.smack.MessageListener;
-import org.jivesoftware.smack.PacketCollector;
-import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.RosterListener;
 import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
-import org.jivesoftware.smack.filter.AndFilter;
-import org.jivesoftware.smack.filter.FromContainsFilter;
-import org.jivesoftware.smack.filter.PacketFilter;
-import org.jivesoftware.smack.filter.PacketTypeFilter;
 import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Message.Body;
-import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smack.packet.PacketExtension;
 import org.jivesoftware.smack.packet.Presence;
 import org.w3c.dom.*;
@@ -164,8 +155,19 @@ public class XmppTest {
 		try {
 			event = new NotificationEvent(pe.toXML().toString());
 			
-			if( handledIncidents.contains(event.id) ) return;
-			else handledIncidents.push(event.id);
+			if( !event.state.equals("Active") ) {
+				System.out.println("Ignoring event: "+event.id+", status: "+event.state);
+				return;
+			}
+			if( !event.type.equals("Incident") ) {
+				System.out.println("Ignoring event: "+event.id+", type: "+event.type);
+				return;
+			}
+			if( handledIncidents.contains(event.id) ) {
+				System.out.println("Ignoring event: "+event.id+", already attached product");
+				return;
+			}
+			handledIncidents.push(event.id);
 			
 			workProduct = testSoapConnection.getIncident(event.id, event.checksum, event.version, event.type);
 		} catch (Exception e1) {
@@ -185,8 +187,9 @@ public class XmppTest {
 				testSoapConnection.createObservation(incident.groupId, "Ceres Maps - CA Hazard Layers", 
 						"Submitted: Summary Bot (CERES),<br />Link: <a href='"+urls+"'>CERES Maps<a>"
 						, incident.latitude, incident.longitude);
-				testSoapConnection.createObservation(incident.groupId, "KML - CA Hazard Layers", 
+				String resp = testSoapConnection.createObservation(incident.groupId, "KML - CA Hazard Layers", 
 						"http://gnow.casil.ucdavis.edu:4000/rest/kml?lat="+incident.latitude+"&lng="+incident.longitude, incident.latitude, incident.longitude);
+				System.out.println("Attached KML Product, UICDS response:\n"+resp);
 			} catch (Exception e) {
 				e.printStackTrace();
 			} 
